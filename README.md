@@ -7,6 +7,4 @@ Testing scripts for different Foreign Data Wrappers from PGSpider project.
 
 * Copyright © 2023, mkgrgis
 
-* Copyright © 2023, Toshiba Corporation
-
 This project licensed under the PostgreSQL Licence. For details see [License](License).
