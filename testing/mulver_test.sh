@@ -8,7 +8,7 @@ pg_multver_src_dir="$baseadr/$pg_multver_src_dir";
 [ ! -d "$pg_multver_src_dir" ] && (echo "No PostgreSQL source code directory
 Press any key"; read x; exit;);
 
-one_ver="$3";
+one_ver=$(echo "$3"| tr '.' '_');
 ver=$(ls -1 "$baseadr/$fdwname/expected/" | tr '.' '_');
 echo "$ver";
 
